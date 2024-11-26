@@ -1,4 +1,3 @@
-/* Общий стиль контейнера */
 .container {
   display: flex;
   flex-direction: column;
@@ -9,14 +8,12 @@
   background: #f4f4f9;
 }
 
-/* Заголовок */
 .title {
   color: #333;
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-/* Поле ввода */
 .input-box {
   width: 300px;
   padding: 10px;
@@ -27,13 +24,11 @@
   transition: border-color 0.3s ease;
 }
 
-/* Фокус на поле ввода */
 .input-box:focus {
   border-color: #007bff;
   outline: none;
 }
 
-/* Текст вывода */
 .output-text {
   color: #555;
   font-size: 1.2rem;
