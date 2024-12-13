@@ -1,9 +1,10 @@
 .container {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   font-family: Arial, sans-serif;
   background: #f4f4f9;
 }
@@ -32,4 +33,7 @@
 .output-text {
   color: #555;
   font-size: 1.2rem;
+}
+.but {
+  color: white;
 }
